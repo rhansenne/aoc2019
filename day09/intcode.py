@@ -1,5 +1,5 @@
 relbase=i=offset=0
-def execute(ic,input):
+def execute(ic,input=None):
     global i,relbase,offset
     a=b=idx_in=0
     while(True):
