@@ -1,4 +1,9 @@
 relbase=i=offset=0
+
+def reset():
+    global i,relbase,offset
+    relbase=i=offset=0
+
 def execute(ic,input=None):
     global i,relbase,offset
     a=b=idx_in=0
